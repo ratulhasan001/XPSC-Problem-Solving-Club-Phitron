@@ -24,15 +24,8 @@ int32_t main() {
             cout << "-1" << '\n';
             continue;
         }
-        vector<int>v;
-        for(int i = n; i > n/2; i--) {
-            v.push_back(i);
-        }
-        for(int i = 1; i <= n/2; i++) v.push_back(i);
-        for(int i = 2; i < n - 2; i++) {
-            if(v[i] == i + 1) swap(v[i], v[i + 1]);
-        }
-        for(auto x : v) cout << x << " ";
+        cout << n << " " << n - 1  << " ";
+        for(int i = 1; i < n - 1; i++) cout << i << " ";
         cout << '\n';
     }
     return 0;
