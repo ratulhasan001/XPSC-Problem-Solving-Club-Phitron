@@ -21,37 +21,9 @@ int32_t main() {
         int n;
         string s;
         cin >> n >> s;
-        bool z = true, r = false;
-        if(n == 1) {
-            cout << "Ramos" << '\n';
-            continue;
-        }
-        else if(n == 2) {
-            cout << (s[0] != s[1] ? "Zlatan" : "Ramos" ) << '\n';
-            continue;
-        }
-        else if(n > 2) {
-            cout << (s[0] == s[1] ? "Ramos" : "Zlatan" ) << '\n';
-            continue;
-        }
-        for(int i = 0; i < n - 1; i++) {
-            if(s[i] != s[i + 1]) {
-                if(z) {
-                    i += 2;
-                    z = false;
-                    r = true;
-                }
-                else if(r) {
-                    i += 2;
-                    r = false;
-                    z = true;
-                }
-            }
-            else {
-                cout << (r ? "Ramos" : "Zlatan") << '\n';
-                break;
-            }
-        }
+        int z = 0, o = 0;
+        for(char c : s) (c == '1' ? o++ : z++);
+        cout << (min(z, o) % 2 == 0? "Ramos" : "Zlatan") << '\n';
     }
     return 0;
 }
