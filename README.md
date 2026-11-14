@@ -1,6 +1,6 @@
-# xpsc-problem-solving
+# XPSC Problem Solving Club (Phitron)
 
-My C++ solutions to the weekly problem sets of XPSC, a competitive-programming training programme, organised by week (`week-01` … `week-13`). Each week's set mixes problems from online judges, mainly Codeforces with some from AtCoder, CodeChef, CSES and GeeksforGeeks. The early weeks start with implementation, prefix sums and sliding windows, and later weeks move on to bit manipulation, binary search on the answer, number theory, segment trees, greedy algorithms and constructive problems. The solutions were committed between September and December 2023.
+My C++ solutions to the weekly problem sets of XPSC, the Problem Solving Club run by Phitron, organised by week (`week-01` … `week-13`). Each week's set mixes problems from online judges, mainly Codeforces with some from AtCoder, CodeChef, CSES and GeeksforGeeks. The early weeks start with implementation, prefix sums and sliding windows, and later weeks move on to bit manipulation, binary search on the answer, number theory, segment trees, greedy algorithms and constructive problems. The solutions were committed between September and December 2023.
 
 The repository holds 280 solution files. Each file is named after its problem, with the problem's letter in that week's contest as a prefix: `X_Problem_Title.cpp`. Generic tasks in a few sets are titled `T-1`, `T-2`, and so on.
 
