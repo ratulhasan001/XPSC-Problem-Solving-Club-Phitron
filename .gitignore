@@ -4,3 +4,11 @@
 *.exe
 *.bin
 *.h
+
+# OS / editor files
+.DS_Store
+tempCodeRunnerFile.*
+
+# Compiled binaries
+*.out
+*.o
